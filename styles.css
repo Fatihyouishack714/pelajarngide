@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding-top: 80px; /* Space for fixed header */
+    font-family: 'Inter', sans-serif;
+}
+
+nav a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+.product-card {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+button, a.bg-blue-500 {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, a.bg-blue-500:hover {
+    transform: scale(1.05);
+}
